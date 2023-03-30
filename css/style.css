@@ -2916,6 +2916,10 @@ input:checked + .slider:before {
 		display: none;
 	}
 
+	input:checked + .customize__item-slider:before {
+		transform: translateX(70px);
+	}
+
 	.customize__item-switch{
 		height: 50px;
 		width: 132px;
