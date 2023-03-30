@@ -3238,6 +3238,13 @@ input:checked + .slider:before {
 	}
 }
 
+@media (max-width: 420px){
+	.settings__button{
+		max-width: 80%;
+	}
+}
+
+
 @media (max-width: 344px){
 	.settings__popup-active .config-settings {
     top: -8%;
